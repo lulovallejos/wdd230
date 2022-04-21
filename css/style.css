@@ -5,7 +5,7 @@ body {
     padding: 1em;
   }
   header {
-    background-color: #fd8c3e;
+    background-color: #718355;
     text-align: center;
     padding: 20px;
     border-radius: 20px;
@@ -42,7 +42,7 @@ body {
   }
   footer {
     padding: 20px;
-    background-color: #fd8c3e;
+    background-color: #718355;
     text-align: center;
     border-radius: 20px;
     color: #223c5f; 
