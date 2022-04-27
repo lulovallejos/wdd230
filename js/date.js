@@ -35,7 +35,7 @@ let daynames = [
 
   document.getElementById("currentdate").textContent = fulldate;
 
-  document.getElementById("currentyear").textContent = d.getFullYear();
+  document.getElementById("currentyear").innerHTML = new Date().getFullYear();
 
   let oLastModif = new Date(document.lastModified);
   document.getElementById("lastModified").textContent = oLastModif;
