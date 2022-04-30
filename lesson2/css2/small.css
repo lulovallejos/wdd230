@@ -19,7 +19,7 @@ section {
     border-style: solid;
     border-width: 1px;
     border-color: #223c5f;
-    background-color: #fd8c3e;
+    background-color: #A5AE84;
     border: 3px solid #223c5f;
     border-radius: 1em;
 }
@@ -33,7 +33,7 @@ h6 {
     color:#223c5f; 
     font-family: 'Roboto', sans-serif; 
     text-align: center;
-    background-color: #fd8c3e;
+    background-color: #A5AE84;
     width: 100%;
 }
 
@@ -61,7 +61,7 @@ h2 {
     font-size: 0.9em;
     padding: 1.5rem;
     text-align: center;
-    background-color: #fd8c3e;
+    background-color: #A5AE84;
     color: #223c5f;
     border: 3px solid #223c5f;
     border-radius: 1em; 
@@ -76,7 +76,7 @@ h2 {
   
   footer {
       margin-top: 20px;
-      background-color: #fd8c3e;
+      background-color: #A5AE84;
   }
 
   a {
