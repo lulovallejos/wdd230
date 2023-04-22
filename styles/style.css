@@ -12,34 +12,35 @@ body {
     display: flex;
     font-size: 1.5em;
   }
+
   img {
     border-radius: 10px;  
     margin: 25px 25px 25px 25px;
     border: solid 3px #223c5f; 
-    color: #223c5f;
-  
-    
+    color: #223c5f; 
   }
+
  h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     color: #000000;
-    width: 100%;
-    
-    
+    width: 100%;       
   }
+
   h2 {
     margin: 80px;
     font-family: 'Montserrat', sans-serif;
     border-bottom: 1px solid #223c5f;
     color: #003366; 
   }
+  
   ul {
     margin: 80px;
     margin-top: -65px;
     color: #000000; 
     font-family: 'Montserrat', sans-serif; 
   }
+
   footer {
     padding: 20px;
     background-color: #A5AE84;
