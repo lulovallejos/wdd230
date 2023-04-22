@@ -11,10 +11,10 @@ body {
     border-radius: 20px;
     font-size: 1.5em;
   }
-  .image {
+  img {
     float: right;
     border-radius: 10px;  
-    margin: 0 auto;
+    margin: 25px 25px 25px 25px;
     border: solid 3px #223c5f; 
     color: #223c5f;
   
