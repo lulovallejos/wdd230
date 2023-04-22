@@ -6,13 +6,13 @@ body {
   }
   header {
     background-color: #A5AE84;
-    text-align: center;
-    padding: 20px;
-    border-radius: 20px;
+    text-align: auto;
+    padding: 20x;
+    border-radius: 25px;
+    display: flex;
     font-size: 1.5em;
   }
   img {
-    float: right;
     border-radius: 10px;  
     margin: 25px 25px 25px 25px;
     border: solid 3px #223c5f; 
