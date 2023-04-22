@@ -1,41 +1,7 @@
-let daynames = [
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday",
-  ];
-  let months = [
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December",
-  ];
-  let d = new Date();
-  let dayName = daynames[d.getDay()];
-  let monthName = months[d.getMonth()];
-  let fulldate =
-    dayName +
-    ", " +
-    monthName +
-    " " +
-    d.getDate() +
-    ", " +
-    d.getFullYear();
+const today = new Date();
+const year = today.getFullYear();
+const msg = `&copy;  ${year}  | Lucas Vallejos | Buenos Aires, Argentina<br/>
+<b>Last Updated: </b>${document.lastModified}`;
 
-  document.getElementById("currentdate").textContent = fulldate;
-
-  document.getElementById("currentyear").innerHTML = new Date().getFullYear();
-
-  let oLastModif = new Date(document.lastModified);
-  document.getElementById("lastUpdated").textContent = oLastModif;
+const el = document.querySelector("footer");
+el.innerHTML = msg;
