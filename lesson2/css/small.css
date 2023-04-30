@@ -1,0 +1,65 @@
+header, body {
+    margin: 1.25rem auto;
+    max-width: 1000px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: white;
+
+}
+
+main {
+    display: block;
+    text-align: center;
+}
+
+section {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 1em;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: #fff75e;
+    border-radius: 1em;
+    width: 100%;
+
+}
+
+h1 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    margin: 2em;
+    text-align: left;
+    
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+footer {
+    font-size: 1em;
+    padding: 1.5rem;
+    text-align: center;
+    background-color: #fff75e;
+    border: 3px solid #fff75e;
+    border-radius: 1em;
+    margin-top: 20px; 
+}
