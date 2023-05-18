@@ -1,0 +1,106 @@
+@media only screen and (min-width: 64rem) {
+
+    .content { 
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap:0.5em;
+    }
+
+    .hero{
+        width: auto;
+        height: auto;
+        border: 2px solid #004E98;
+        background-color: #F9F9F7;
+        padding: 1rem;
+        margin: 0.5rem 0.5rem 0 0 ;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+
+    .event{
+        width: auto;
+        height: 250px;
+        border: 2px solid #004E98;
+        background-color: #F9F9F7;
+        padding: 1rem;
+        margin: 0.5rem 0.5rem 0 0 ;
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .weather {
+        width: auto;
+        height: 250px;
+        border: 2px solid #004E98;
+        background-color: #F9F9F7;
+        padding: 1rem;
+        margin: 0.5rem 0.5rem 0 0 ;
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .join {
+        display: block;
+        width: auto;
+        height: 250px;
+        border: 2px solid #004E98;
+        background-color: #F9F9F7;
+        padding: 1rem;
+        margin: 0.5rem 0.5rem 0 0 ;
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .news {
+        width: auto;
+        height: 250px;
+        border: 2px solid #004E98;
+        background-color: #F9F9F7;
+        padding: 1rem;
+        margin: 0.5rem 0.5rem 0 0 ;
+        grid-column: 2 span 2;
+        grid-row: 3;
+    }
+
+    .spotlight{
+        width: auto;
+        height: auto;
+        border: 2px solid #004E98;
+        background-color: #F9F9F7;
+        padding: 1rem;
+        margin: 0.5rem 0.5rem 0 0 ;
+        grid-column: 4;
+        grid-row-start: 1;
+        grid-row-end: 4;
+        display: flex;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 3;
+        grid-gap: 1rem;
+    }
+    .box1{
+        grid-row: 1;
+        border: 1px solid #004E98;
+    }
+    .box2{
+        grid-row: 2;
+        border: 1px solid #004E98;
+    }
+    .box3{
+        display: block;
+        grid-row: 3;
+        border: 1px solid #004E98;
+    }
+
+
+
+
+
+
+    nav ul li a {
+        padding: .5rem 1rem;
+
+    }
+}

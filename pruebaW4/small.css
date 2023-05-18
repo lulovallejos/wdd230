@@ -1,0 +1,272 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+    background-color: #F9F9F7;
+}
+
+header {
+    display: flex;
+    background-color: #FABEC0;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header h1 {
+    color: #004E98;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.social {
+    margin-right: 1.5rem;
+}
+
+.social a img {
+    margin-right: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+picture {
+    display: flex;
+    margin-left: 10px;
+}
+
+
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #004E98;
+}
+
+nav {
+    background-color: #FABEC0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #004E98;
+    border-top: 1px solid rgba();
+    font-size: 1.5rem;
+}
+
+nav ul li a:hover {
+    background-color: #004E98;
+    color: #F9F9F7;
+}
+
+nav ul {
+    display: none;
+}
+
+nav ul.open {
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(1){
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(2){
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1){
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(2){
+    display: block;
+}
+
+
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap:0.5em;
+}
+
+.content h3 {
+    color: #004E98;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.spotlight {
+    color: #004E98;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero {
+    width: auto;
+    height: 150px;
+    border: 2px solid #004E98;
+    background-color: #F9F9F7;
+    padding: 1rem;
+    margin: 0.5rem 0.5rem 0 0 ;
+    grid-row: 1;
+}
+
+.event {
+    width: auto;
+    height: 100px;
+    border: 2px solid #004E98;
+    background-color: #F9F9F7;
+    padding: 1rem;
+    margin: 0.5rem 0.5rem 0 0 ;
+    grid-row: 2;
+}
+
+.weather {
+    width: auto;
+    height: 100px;
+    border: 2px solid #004E98;
+    background-color: #F9F9F7;
+    padding: 1rem;
+    margin: 0.5rem 0.5rem 0 0 ;
+    grid-row: 3;
+}
+
+.news {
+    width: auto;
+    height: 100px;
+    border: 2px solid #004E98;
+    background-color: #F9F9F7;
+    padding: 1rem;
+    margin: 0.5rem 0.5rem 0 0 ;
+    grid-row: 4;
+}
+
+.spotlight {
+    width: auto;
+    height: 200px;
+    border: 2px solid #004E98;
+    background-color: #F9F9F7;
+    padding: 1rem;
+    margin: 0.5rem 0.5rem 0 0 ;
+    grid-row: 5;
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2;
+    grid-gap: 1rem;
+}
+.box1{
+    grid-row: 1;
+    border: 1px solid #004E98;
+}
+.box2{
+    grid-row: 2;
+    border: 1px solid #004E98;
+}
+.box3, .join { 
+    display: none;
+}
+
+
+
+footer {
+    background-color: #FABEC0;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    color: #004E98;
+    display: flex;
+    flex-flow: row;
+    display: grid;
+    grid-template-rows: 2;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+}
+
+.boxes {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grip-gap: 50px;
+    padding: 45px 0px;
+}
+
+.boxes .box .footer-logo picture {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes .box .footer-logo picture img {
+     
+}
+
+.boxes .box .address h2 {
+    color: #004E98;
+    margin-bottom: 35px;
+}
+
+.boxes .box .address address {
+    margin-bottom: 45px;
+}
+
+.boxes .box .footercontact a {
+    text-decoration: none;
+    display: 
+}
+
+
+
+
+.footer-logo {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+footer picture img {
+    
+}
+
+.address {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.footercontact {
+    display: flex;
+    justify-content: center;
+}
+
+.footercontact a {
+    color: #004E98;
+    justify-content: center;
+    position:
+}
