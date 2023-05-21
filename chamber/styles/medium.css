@@ -102,4 +102,14 @@
         border: none;
     }
 
+
+    .social {
+        display: flex;
+        /*flex-direction: column;*/
+        /*width: 50px;*/
+        margin-right: 1.5rem;
+        align-items: center;
+        padding-right: 10px;
+    }
+
 }

@@ -1,10 +1,10 @@
 
 const input = document.getElementById("favchap");
-const addButton = document.getElementById("add");
+const button = document.getElementById("button");
 const list = document.getElementById("list");
 
 
-addButton.addEventListener("click", () => {
+button.addEventListener("click", () => {
   if (input.value != null && input.value != "") addFavoriteChapter(input.value);
   else alert("Please, insert a chapter!");
 });
