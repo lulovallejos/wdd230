@@ -21,7 +21,7 @@
 
     .event{
         width: auto;
-        height: 250px;
+        height: auto;
         border: 2px solid #004E98;
         background-color: #F9F9F7;
         padding: 1rem;
@@ -32,7 +32,7 @@
 
     .weather {
         width: auto;
-        height: 250px;
+        height: auto;
         border: 2px solid #004E98;
         background-color: #F9F9F7;
         padding: 1rem;

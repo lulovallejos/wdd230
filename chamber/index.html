@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="description" content="Project CABA chamber of commerce">
 <meta name="author" content="Lucas Valllejos">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
 <title>CABA Chamber of Commerce</title>
@@ -38,8 +39,8 @@
             </picture>
             <h1>CABA Chamber of Commerce</h1>
         </div>
-        <div id="date">
-            <time id="headerdate"></time>
+        <div class="date">
+            <span id="headerdate"></span>
         </div>
 
         <div class="social">
@@ -54,13 +55,14 @@
             </a>
         </div>
 
+       
+    
+
     </header>
-    
-    
-<!-- NAVIGATION HERE -->
+     <!-- NAVIGATION HERE -->
     <nav>
-        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
-        <ul id="primaryNav">
+        <button id="hamButton"><span>&#9776;</span><span>X</span></button>
+        <ul id="navigation">
             <li><a href="#">Join</a></li>
             <li><a href="#">Discover</a></li>
             <li><a href="#">Directory</a></li>
@@ -68,13 +70,20 @@
         </ul>
     </nav>
     
+
+    
     
 <!-- CONTENT HERE -->
     <main>
         <section class="content">
             <section class="hero">
-                <h3>Hero with site name and call to action</h3>
-                <img src="images/buenosairescity.jpg" alt="">
+                <!-- <h3>Hero with site name and call to action</h3> -->
+                <!-- <img src="images/buenosairescity.jpg" alt=""> -->
+                <picture>
+                    <source media="(min-width: 990px)" srcset="images/hero-medium.jpg">
+                    <source media="(min-width: 651px)" srcset="images/hero-large.jpg">
+                    <img src="/chamber/images/hero-small.jpg" alt="">
+                </picture>
             </section>
 
             <section class="event">
@@ -83,13 +92,13 @@
             </section>
 
             <section class="weather">
-                <h3>Weather</h3>
-                <p></p>
-                <p>33°C</p>
+                <!-- <h3>Weather</h3> -->
+              <div class="weatherinfo">
+                <h2 class="tem">33°F</h2>
                 <p>Party Cloudy</p>
-                <hr>
-                <p>Wind Speed: 2,5 km/h</p>
-                <p>Wind Chill: N/A</p>
+                <p>Wind Speed: <span id="speed"></span>km/h</p>
+                <p class="windchill">Wind Chill: N/A</p>
+              </div>
             </section>
 
             <section class="news">
@@ -167,13 +176,14 @@
             <a href="tel:1145833268">(011) 4583-3268</a>
             <a href="https:https:https://www.google.com/maps/place/Estadio+Alberto+J.+Armando-+La+Bombonera/@-34.6356109,-58.3647563,15z/data=!4m6!3m5!1s0x95a334b6925e5473:0x1ca5b2748858b40d!8m2!3d-34.6356109!4d-58.3647563!16zL20vMDNmMDZw">Location Map</a>
           </div>
-          <div><span id="footerinfo"></span></div>
-        </div>
-      </div>
 
-        <p>&copy;<span>year</span>| Lucas Vallejos | WDD 230 Project | </p>
+          <div>
+            <span id="footerinfo"></span>
+          </div>
+
+        </div>
 
     </footer>
-    <script src="chamber/scripts/time.js"></script>
+    <script src="/chamber/scripts/windchill.js"></script>
 </body>
 </html>

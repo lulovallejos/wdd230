@@ -1,15 +1,3 @@
-/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
-html {
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-}
-
-/*----------- apply a natural box layout model to all elements --------------*/
-* {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
 
 body {
     background-color: #F9F9F7;
@@ -20,6 +8,7 @@ header {
     background-color: #FABEC0;
     justify-content: center;
     align-items: center;
+    margin: 5px;
 }
 
 
@@ -27,9 +16,10 @@ header h1 {
     color: #004E98;
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    padding-right: 10px;
 }
 
-#date {
+.date {
     color: #004E98;
     font-family: 'Roboto', sans-serif;
     align-items: center;
@@ -38,7 +28,7 @@ header h1 {
     flex-direction: column;
 }
 
-#date #headerdate {
+.date #headerdate {
     background-color: ;
     display: flex;
     text-align: center;
@@ -49,6 +39,8 @@ header h1 {
     display: flex;
     align-items: center;
     margin-left: 1rem;
+    max-width: 100%;
+    height: auto;
 }
 
 .logo img {
@@ -68,6 +60,7 @@ header h1 {
     width: 30px;
     margin: 0 auto;
     text-align: center;
+    justify-items: center;
 }
 
 .social a img {
@@ -95,6 +88,7 @@ nav {
     text-align: center;
     background-color: #FABEC0;
     font-family: 'Roboto', sans-serif;
+    margin: 5px;
 }
 
 nav ul {
@@ -141,12 +135,15 @@ nav ul.open {
     display: block;
 }
 
+main {
 
+}
 
 .content {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 0.5em;
+    margin: 5px;
 }
 
 .content h3 {
@@ -161,7 +158,7 @@ nav ul.open {
 
 .hero {
     width: auto;
-    height: 150px;
+    height: auto;
     border: 2px solid #004E98;
     background-color: #F9F9F7;
     padding: 1rem;
@@ -177,7 +174,7 @@ nav ul.open {
 
 .event {
     width: auto;
-    height: 100px;
+    height: auto;
     border: 2px solid #004E98;
     background-color: #F9F9F7;
     padding: 1rem;
@@ -187,7 +184,7 @@ nav ul.open {
 
 .weather {
     width: auto;
-    height: 100px;
+    height: auto;
     border: 2px solid #004E98;
     background-color: #F9F9F7;
     padding: 1rem;
@@ -195,9 +192,13 @@ nav ul.open {
     grid-row: 3;
 }
 
+.weather h2 {
+    color: #004E98;
+}
+
 .news {
     width: auto;
-    height: 100px;
+    height: auto;
     border: 2px solid #004E98;
     background-color: #F9F9F7;
     padding: 1rem;
@@ -207,7 +208,7 @@ nav ul.open {
 
 .spotlight {
     width: auto;
-    height: 200px;
+    height: auto;
     border: 2px solid #004E98;
     background-color: #F9F9F7;
     padding: 1rem;
@@ -239,7 +240,7 @@ nav ul.open {
 
 footer {
     background-color: #FABEC0;
-    width: 100%;
+    /*width: 100%;*/
     text-align: center;
     align-items: center;
     color: #004E98;
@@ -250,6 +251,8 @@ footer {
     justify-content: center;
     font-family: 'Roboto', sans-serif;
     padding: 15px;
+    margin: 5px;
+    margin-top: var(--white-space);
 }
 
 .boxes {
@@ -286,6 +289,8 @@ footer {
 .boxes .box .footercontact a {
     text-decoration: none;
 }
+
+
 
 .footer-logo {
     justify-content: center;

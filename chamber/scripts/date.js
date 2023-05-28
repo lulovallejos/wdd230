@@ -1,4 +1,4 @@
-const hamButton = document.querySelector('#hamburgerBtn');
+const hamButton = document.querySelector('#hamButton');
 const navigation = document.querySelector('.navigation');
 
 hamButton.addEventListener('click', () => {

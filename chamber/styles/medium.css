@@ -8,7 +8,7 @@
 
     .hero{
         width: auto;
-        height: 150px;
+        height: auto;
         border: 2px solid #004E98;
         background-color: #F9F9F7;
         padding: 1rem;
@@ -19,7 +19,7 @@
 
     .event{
         width: auto;
-        height: 100px;
+        height: auto;
         border: 2px solid #004E98;
         background-color: #F9F9F7;
         padding: 1rem;
@@ -42,7 +42,7 @@
 
     .news{
         width: auto;
-        height: 100px;
+        height: auto;
         border: 2px solid #004E98;
         background-color: #F9F9F7;
         padding: 1rem;
@@ -53,7 +53,7 @@
 
     .weather{
         width: auto;
-        height: 100px;
+        height: auto;
         border: 2px solid #004E98;
         background-color: #F9F9F7;
         padding: 1rem;
@@ -64,7 +64,7 @@
 
     .spotlight{
         width: auto;
-        height: 200px;
+        height: auto;
         border: 2px solid #004E98;
         background-color: #F9F9F7;
         padding: 1rem;
@@ -107,9 +107,10 @@
         display: flex;
         /*flex-direction: column;*/
         /*width: 50px;*/
-        margin-right: 1.5rem;
+        margin-right: 2.5rem;
         align-items: center;
         padding-right: 10px;
+        flex-direction: row;
     }
 
 }
