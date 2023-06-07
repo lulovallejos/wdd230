@@ -135,9 +135,14 @@ nav ul.open {
     display: block;
 }
 
+/*MAIN*/
 main {
-
+    grid-row: 2/3;
+    text-align: center;
+    margin: 15px;
 }
+
+main 
 
 .content {
     display: grid;
@@ -317,3 +322,34 @@ footer picture img {}
     color: #004E98;
     justify-content: center;
 }
+
+/* Discover */
+.discover { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.discover picture {
+    align-self: center;
+}
+
+
+.discover picture img {
+    max-width: 100%;
+    align-self: center;
+}
+
+.discover img[data-src] {
+    
+  }
+  
+  .discover img {
+    transition: filter 0.5 s;
+  }
+  
+  
+  .discover section .text {
+    background-color: #F9F9F7;
+  }
