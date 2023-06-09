@@ -1,0 +1,44 @@
+table {
+    margin: 10px auto;
+    border: 1 px solid;
+    box-shadow: 10px 10px 10px #49678d;
+    font-family: 'Ubuntu', sans-serif;
+    border-collapse: collapse;
+  }
+  
+  td {
+    text-align: center;
+  }
+  
+  th, td {
+    padding: 7px 15px;
+    border: 1px solid rgba(198,200,199,255);
+    color: black;
+  }
+  thead {
+    background-color: #6b705c;
+  }
+  
+  .titles {
+    background-color: #ddbea9; 
+    color: black;  
+  }
+  
+  
+  .row1, .row3, .row5 {
+    background-color: #ffe8d6; 
+  }
+  
+  .row2, .row4, .row6 {
+    background-color: #ddbea9; 
+    
+  }
+  
+  #title-head {
+    font-size: 2rem;
+  }
+  
+  #black {
+   font-style: italic;
+  }
+  
