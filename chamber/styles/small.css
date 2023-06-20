@@ -150,6 +150,71 @@ main .join {
 }
 
 
+/*----Main Directory----*/
+
+.directory .grid{
+    display: grid;
+    grid-template-rows: repeat(4,auto);
+    margin: 30px;
+    padding: 10px o;
+    background-color: #F9F9F7;
+}
+
+.directory .grid h3{
+    margin: 0;
+    color: #004E98;
+  }
+
+.directory .cards section img{
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 75%;
+  }
+
+  .directory .menu {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0);
+	padding: 0.5rem;
+	background-color: #FABEC0;
+	text-align: center;
+}
+
+.directory .menu button {
+	padding: 1rem;
+	font-weight: 700;
+    background-color: #F9F9F7;
+    color: #004E98;
+    border: #004E98;
+}
+.directory .no-display {
+  display: none;
+}
+.directory .list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  margin: 8px 0;
+  color: #004E98;
+}
+
+main:has(.directory){
+    width: 100%;
+  }
+  .directory:has(.list){
+    width: 100%;
+  }
+  .directory .list h3{
+    margin: 3px 0;
+  }
+  .directory .list:nth-child(odd) {
+    background-color: #bdd5ea;
+  }
+
+  /* End directory */
+
+
 
 
 /*----------- FORMS -------------*/
