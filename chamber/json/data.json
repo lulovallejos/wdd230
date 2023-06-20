@@ -1,0 +1,76 @@
+{
+    "companies": [
+      {
+        "name": "Betular Pâtisserie",
+        "address": "Mercedes 3900, CABA",
+        "phone": "011 4535 7080",
+        "website": "https://www.instagram.com/betular.patisserie/?hl=es",
+        "level": ["Patisserie"],
+        "imageurl": "images/betular.jpg"
+      },
+      {
+        "name": "Laban",
+        "address": "Migueletes 688, CABA",
+        "phone": "011 2691 2576",
+        "website": "https://somoslaban.com/",
+        "level": ["Patisserie"],
+        "imageurl": "images/laban.jpg"
+      },
+      {
+        "name": "Maru Botana",
+        "address": "11 de septiembre 982, CABA",
+        "phone": "011 3566 8096",
+        "website": "https://marubotana.com/institucional/index.php",
+        "level": ["Patisserie"],
+        "imageurl": "images/maru.jpg"
+      },
+      {
+        "name": "Café Tortoni",
+        "address": "Av. de Mayo 825, CABA",
+        "phone": "011 4342 4328",
+        "website": "https://www.cafetortoni.com.ar/",
+        "level": ["Patisserie"],
+        "imageurl": "images/tortoni.png"
+      },
+      {
+        "name": "La Kitchen",
+        "address": "Nuñez 3400, CABA",
+        "phone": "011 6850 0658",
+        "website": "https://www.lakitchen.com.ar/",
+        "level": ["Patisserie"],
+        "imageurl": "images/kitchen.png"
+      },
+      {
+        "name": "Guber Pâtisserie",
+        "address": "Galván 3550, CABA",
+        "phone": "011 6988 4543",
+        "website": "http://guberpatisserie.com.ar/home/",
+        "level": ["Patisserie"],
+        "imageurl": "images/guber.jpg"
+      },
+      {
+        "name": "La Buenos Aires",
+        "address": "Av. Carabobo 122, CABA",
+        "phone": "011 3376 9882",
+        "website": "http://www.labuenosairespasteleria.com.ar/productos.php",
+        "level": ["Patisserie"],
+        "imageurl": "images/labuenosaires.png"
+      },
+      {
+        "name": "Artiaga",
+        "address": "Zapiola 4782, CABA",
+        "phone": "011 4542 6231",
+        "website": "https://panaderiaartiaga.com/en/",
+        "level": ["Patisserie"],
+        "imageurl": "images/artiaga.jpg"
+      },
+      {
+        "name": "Moshu",
+        "address": "Moldes 3802, CABA",
+        "phone": "011 1233 8576",
+        "website": "https://www.instagram.com/compartimoshu/?hl=es",
+        "level": ["Patisserie"],
+        "imageurl": "images/moshu.jpg"
+      }
+    ]
+  }
