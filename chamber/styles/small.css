@@ -3,36 +3,67 @@ body {
     background-color: #F9F9F7;
 }
 
+/*Header*/
 header {
-    display: flex;
+    display: grid;
     background-color: #FABEC0;
     justify-content: center;
     align-items: center;
-    margin: 5px;
+    margin-bottom: var(--white-space);
+    grid-template-columns: 1.7fr; 
+    grid-template-rows: 0.9fr 0.6fr 0.6fr;
 }
 
+.announcement {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #004E98;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: var(--white-space);
+    padding: o var(--white-space);
+    display: flex;
+    font-size: 0.9em;
+    height: auto;
+    width: 100%;
+    grid-column: 1/3;
+}
+
+.announcement p {
+    color: #F9F9F7;
+    font-size: 1em;
+}
 
 header h1 {
     color: #004E98;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     padding-right: 10px;
+    margin: auto;
 }
 
-.date {
+
+.Hdate {
+    align-self: center;
+    justify-self: center;
+}
+/*.date {
     color: #004E98;
     font-family: 'Roboto', sans-serif;
     align-items: center;
     display: flex;
     text-align: center;
     flex-direction: column;
-}
+}*/
 
-.date #headerdate {
-    background-color: ;
+.headerdate {
+    grid-column: 1/3;
     display: flex;
-    text-align: center;
-    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    color: #004E98;
+    font-family: 'Roboto', sans-serif;
 }
 
 .logo {
@@ -41,19 +72,42 @@ header h1 {
     margin-left: 1rem;
     max-width: 100%;
     height: auto;
+    margin: auto;
 }
 
 .logo img {
     width: 100px;
+    height: auto;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    margin-left: .5rem;
+}
+
+.headings h1 {
+    margin: 0;
+    justify-content: center;
+
 }
 
 .social {
     display: flex;
-    flex-direction: column;
-    width: 50px;
+    justify-content: flex-end;
+    /*flex-direction: column;*/
+   /* width: 50px;*/
     /* margin-right: 1.5rem; */
-    align-items: center;
-    padding-right: 10px;
+    /*align-items: center;*/
+   /* padding-right: 10px;*/
+}
+
+.social-icon {
+    text-align: right;
+    align-self: center;
+    min-width: 74px;
+    padding-right: var(--white-space);
+    
 }
 
 .social a {
@@ -89,6 +143,7 @@ nav {
     background-color: #FABEC0;
     font-family: 'Roboto', sans-serif;
     margin: 5px;
+    flex-direction: row;
 }
 
 nav ul {
@@ -106,6 +161,10 @@ nav ul li a {
     font-size: 1.5rem;
 }
 
+nav ul li {
+   /* display: inline-block;*/
+}
+
 nav ul li a:hover {
     background-color: #004E98;
     color: #F9F9F7;
@@ -113,25 +172,27 @@ nav ul li a:hover {
 
 nav ul {
     display: none;
+    justify-content: center;
+    
 }
 
 nav ul.open {
     display: block;
 }
 
-#hamburgerBtn span:nth-child(1) {
+#hamButton span:nth-child(1) {
     display: block;
 }
 
-#hamburgerBtn span:nth-child(2) {
+#hamButton span:nth-child(2) {
     display: none;
 }
 
-#hamburgerBtn.open span:nth-child(1) {
+#hamButton.open span:nth-child(1) {
     display: none;
 }
 
-#hamburgerBtn.open span:nth-child(2) {
+#hamButton.open span:nth-child(2) {
     display: block;
 }
 
@@ -141,7 +202,6 @@ main {
     text-align: center;
     margin: 15px;
 }
-
 
 /*----Main Join----*/
 
@@ -393,9 +453,9 @@ footer {
     /* grid-template-rows: 2; */
     justify-content: center;
     font-family: 'Roboto', sans-serif;
-    padding: 15px;
-    margin: 5px;
-    margin-top: var(--white-space);
+    /*padding: 15px;*/
+   /* margin: 5px;*/
+    /*margin-top: var(--white-space);*/
 }
 
 .boxes {
@@ -404,7 +464,7 @@ footer {
     /* display: grid; */
     /* grid-template-columns: repeat(3, 1fr); */
     /* grip-gap: 50px; */
-    padding: 45px 0px;
+    padding: 10px 0px 0px 0px;
 }
 
 
@@ -439,14 +499,18 @@ footer {
     justify-content: center;
     align-items: center;
     display: flex;
+    flex-direction: column;
 }
 
 footer picture img {}
 
 .address {
-    display: block;
-    justify-content: center;
+    display: flex;/*block*/
+    justify-content: space-between;
     align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 2px 0;
 }
 
 .footercontact {
@@ -454,6 +518,8 @@ footer picture img {}
     flex-direction: column;
     gap: 10px;
     justify-content: center;
+    text-align: center;
+    padding: var(--white-space)/2;
 }
 
 .footercontact a {
