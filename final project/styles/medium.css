@@ -1,0 +1,31 @@
+@media only screen and (min-width: 35rem) {
+
+    nav button {
+        display: none;
+    }
+
+    nav ul#navigation {
+        display: flex;
+        margin-left: 2vw;
+        justify-content: center;
+    }
+
+    nav ul li a {
+        border: none;
+    }
+
+    .social {
+        display: flex;
+        margin-right: 2.5rem;
+        align-items: center;
+        padding-right: 10px;
+        flex-direction: row;
+    }
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 15px;
+    }
+}

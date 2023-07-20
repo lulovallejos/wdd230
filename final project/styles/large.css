@@ -1,0 +1,91 @@
+header {
+    background-color: #f69a47;
+}
+
+.content {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px 5px;
+    margin: 5px;
+    grid-template-areas: "picture picture picture" "weather drinks summary";
+}
+
+.content h3 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.home img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.home .home-wrapper {
+    position: relative;
+    display: flex;
+}
+
+.home .home-wrapper button {
+    align-self: flex-end;
+    width: 300px;
+}
+
+button {
+    height: 40px;
+    min-width: 80px;
+    border: none;
+    border-radius: 10px;
+    background-color:#597537; 
+    color: #ffffff;
+    font-size: 1.06em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.picture {
+    width: 100%;
+    height: auto;
+    grid-area: picture;
+}
+
+.weather {
+    width: auto;
+    height: 30%;
+    border: 2px solid #597537;
+    padding: 1rem;
+    margin: 0.5rem 0.5rem 0 0;
+    grid-area: weather;
+}
+
+.drinks {
+    width: auto;
+    height: 30%;
+    border: 2px solid #597537;
+    padding: 1rem;
+    margin: 0.5rem 0.5rem 0 0;
+    
+}
+
+.summary {
+    width: auto;
+    height: 30%;
+    border: 2px solid #597537;
+    padding: 1rem;
+    margin: 0.5rem 0.5rem 0 0;
+    
+}
+
+
+
+
+
+footer {
+    background-color: #597537;
+    color: #ffffff;
+  
+}
+
+footer .box-contact .footer-contact a{
+    color: #ffffff;
+}

@@ -1,0 +1,352 @@
+header, footer {
+    border-radius: 10px;
+}
+
+body {
+    background-color: #F9F4EA;
+}
+
+header {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    padding-top: .5px;
+}
+
+.logo img {
+    
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon {
+    text-align: right;
+    align-self: center;
+    min-width: 74px;
+    padding-right: var(--white-space); 
+    padding-top: .5px; 
+}
+
+
+
+.social a {
+    width: 30px;
+    margin: 0 auto;
+    text-align: center;
+    justify-items: center;
+}
+
+
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+nav {
+    text-align: center;
+    background-color: #F69A47;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 5px;
+    flex-direction: row;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #ffffff;
+    border-top: 1px solid rgba();
+    font-size: 1.5rem;
+}
+
+
+nav ul li a:hover {
+    background-color: #597537;
+    color: #F9F9F7;
+}
+
+
+nav ul {
+    display: none;
+    justify-content: center; 
+}
+
+nav ul.open {
+    display: block;
+}
+
+#Button span:nth-child(1) {
+    display: block;
+}
+
+#Button span:nth-child(2) {
+    display: none;
+}
+
+#Button.open span:nth-child(1) {
+    display: none;
+}
+
+#Button.open span:nth-child(2) {
+    display: block;
+}
+
+/* Home */
+main .home {
+
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0.5em;
+    margin: 5px;
+}
+
+.content h3 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.home img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.home .home-wrapper {
+    position: relative;
+    display: flex;
+}
+
+.home .home-wrapper button {
+    align-self: flex-end;
+    width: 300px;
+}
+
+button {
+    height: 40px;
+    min-width: 80px;
+    border: none;
+    border-radius: 10px;
+    background-color:#597537; 
+    color: #ffffff;
+    font-size: 1.06em;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+button a:hover {
+    color: #F69A47;
+}
+
+.picture {
+    width: 100%;
+    height: auto;
+}
+
+.weather {
+    width: auto;
+    height: auto;
+    border: 2px solid #597537;
+    padding: 1rem;
+    margin: 0.5rem 0.5rem 0 0;
+    grid-row: 2;
+}
+
+.drinks {
+    display: grid;
+    width: auto;
+    height: auto;
+    border: 2px solid #597537;
+    padding: 1rem;
+    margin: 0.5rem 0.5rem 0 0;
+    grid-row: 3;
+}
+
+.summary {
+    display: grid;
+    width: auto;
+    height: auto;
+    border: 2px solid #597537;
+    padding: 1rem;
+    margin: 0.5rem 0.5rem 0 0;
+    grid-row: 4;
+}
+
+.summary p {
+    font-size: 1.2rem;
+}
+
+/* Fresh */
+
+.fresh {
+    font-family: 'Josefin Sans', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.fresh h1 {
+    margin: 2rem;
+}
+
+form {
+    margin: 2rem;
+	border-radius: 10px;
+	padding: .5rem 2%;
+}
+
+
+.fresh button {
+    margin: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.fresh button:hover {
+    background-color: #597537;
+    color: #F69A47;
+}
+
+
+
+/* About us */
+
+.about {
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.about h1, p {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.about p {
+    font-size: 1.5rem;
+}
+
+.map {
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.map .gmap {
+    border-radius: 15px;   
+}
+
+form {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+form h1 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.formAbout {
+    display: block;
+}
+
+form .submitBtn {
+    background-color: #597537;
+    color: #ffffff;
+    border: #597537;
+    border-radius: 10px;
+}
+
+form .submitBtn:hover {
+    background-color: #597537;
+    color: #F69A47;
+}
+
+form label.top input,
+form label.top select {
+	--webkit-appearence: none;
+	display: block;
+	
+	border: solid 2px #597537;
+	border-radius: 4px;
+	
+	color: #597537;
+	width: 100%;
+	max-width: 20rem;
+	background-color: #ffffff;
+}
+
+
+
+
+/* Footer */
+
+footer {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+footer picture img {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.box-contact {
+    display: flex;/*block*/
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 2px 0;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+    padding: var(--white-space)/2;
+}
+
+.footer-contact a {
+    text-decoration: none;
+}
+
+.footer-contact a:hover {
+    color: #F69A47;
+}
+
+hr {
+    margin: calc(var--(--white-space));
+    border-color: #ffffff;
+    width: 90%;
+}

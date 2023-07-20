@@ -9,8 +9,8 @@ hamButton.addEventListener('click', () => {
 
 const today = new Date();
 const year = today.getFullYear();
-const msg = `&copy;  ${year} .:|:. Lucas Vallejos .:|:. Argentina<br/>
-Last updated: ${document.lastModified}`;
+const msg = `&copy;  ${year} |Lucas Vallejos| WDD 230 | Argentina<br/>
+Last modified: ${document.lastModified}`;
 
 const el = document.querySelector("footer");
 el.innerHTML = msg;
